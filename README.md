@@ -8,8 +8,6 @@ It is intended to contain only:
 - public release notes
 - GitHub Releases assets such as `RampartLegacies-Windows.zip`
 
-The actual game source should live in a separate private repository.
-
 ## Public links
 
 - Project page: https://astroblitzcreations.github.io/rampart-legacies/
