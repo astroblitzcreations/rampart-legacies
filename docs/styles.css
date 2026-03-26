@@ -12,6 +12,8 @@
   --gold: #ffd36b;
   --green-1: #20d46c;
   --green-2: #0ea44c;
+  --android-1: #3ddc84;
+  --android-2: #2bb673;
   --shadow: 0 24px 70px rgba(0, 0, 0, 0.45);
   --radius-xl: 28px;
   --radius-lg: 22px;
@@ -294,6 +296,13 @@ p {
 .button.secondary {
   background: rgba(255, 255, 255, 0.04);
   color: var(--text);
+}
+
+.button.android {
+  background: linear-gradient(135deg, var(--android-1), var(--android-2));
+  color: #062b1a;
+  border: none;
+  box-shadow: 0 12px 30px rgba(61, 220, 132, 0.30);
 }
 
 .button.donate {
